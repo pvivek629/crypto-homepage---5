@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Red Rose", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.container {
+  background-image: url("./assets/bg.png");
+
+  height: 800px;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60px;
+  background-color: black;
+  height: 80px;
+}
+
+.logo {
+  width: 95px;
+}
+
+.line {
+  padding-left: 60px;
+}
+
+.line1 {
+  border-left: 1px solid white;
+  height: 40px;
+  position: absolute;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.list-item {
+  padding-left: 60px;
+  color: white;
+  font-weight: bold;
+  padding-top: 7px;
+}
+
+.small {
+  padding-left: 300px;
+  padding-top: 1px;
+}
+
+.button-small {
+  padding: 6px 25px 6px 25px;
+  background-color: #c011ba;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.hero-heading {
+  padding-left: 350px;
+  padding-right: 220px;
+  padding-top: 110px;
+  font-size: 80px;
+  color: white;
+}
+
+.hero-description {
+  padding-left: 400px;
+  padding-right: 330px;
+  padding-top: 7px;
+  font-size: 30px;
+  color: white;
+}
+
+.large {
+  padding-left: 530px;
+  padding-top: 40px;
+}
+
+.button-large {
+  padding: 14px 25px 14px 25px;
+  background-color: #c011ba;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+}
